@@ -15,6 +15,7 @@ BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 BuildRequires:	swig
+BuildRequires:	swig-python
 Requires:	python-M2Crypto
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
