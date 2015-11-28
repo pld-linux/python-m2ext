@@ -38,15 +38,11 @@ fi
 export CFLAGS LDFLAGS
 
 CC="%{__cc}" \
-%{__python} setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{__python} setup.py \
-	build install \
-	--skip-build \
-	--optimize=2 \
-	--root=$RPM_BUILD_ROOT
+%py_install
 
 %py_postclean
 
