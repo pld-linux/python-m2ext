@@ -13,7 +13,7 @@ BuildRequires:	pkgconfig
 BuildRequires:	python-M2Crypto
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	swig
 BuildRequires:	swig-python
 Requires:	python-M2Crypto
