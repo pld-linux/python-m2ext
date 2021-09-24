@@ -2,7 +2,7 @@
 Summary:	M2Crypto Extensions
 Name:		python-m2ext
 Version:	0.1
-Release:	4
+Release:	5
 License:	BSD
 Group:		Development/Languages
 Source0:	http://pypi.python.org/packages/source/m/%{module}/%{module}-%{version}.tar.gz
